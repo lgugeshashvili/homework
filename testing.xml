@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation Suite" verbose="2" thread-count="8">
+    <test name="TestSuit1">
+        <classes>
+            <class name="firstTest" />
+        </classes>
+    </test>
+
+    <test name="TestSuit2">
+        <classes>
+            <class name="fourthTest" />
+        </classes>
+    </test>
+</suite>
